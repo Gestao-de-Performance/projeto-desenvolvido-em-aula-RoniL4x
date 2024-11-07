@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de apresentação da faculdade Uníntese criado pelos alunos para praticar programação" >
+    <title>Escola De Programadores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <style>
+        .text {
+            font-family: "Montserrat", sans-serif;
+            color: #3B1270;
+        }
+        .myContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+        }
+        .lupa-input {
+            background-image: url('img/site/lupa.svg');
+            background-repeat: no-repeat;
+            background-position: 10px;
+            background-position-x: 230px;
+        }
+        input {
+            border: 1px solid rgba(211, 163, 255, 0.801); /* Cor padrão da borda */
+            padding: 10px;
+            font-size: 15px;
+            color: blueviolet;
+            outline: none; /* Remove a borda padrão do foco */
+            border-radius: 1px; /* Borda arredondada */
+            transition: border-color 0.3s; /* Suaviza a transição da cor */
+            width: 250px;
+            height: 29px;
+            left: 821px;
+            top: 33px;
+        }
+        input::placeholder {
+            color: rgba(211, 163, 255, 0.801); /* Cor do texto do placeholder */
+            opacity: 0.6; /* Opacidade do placeholder (pode ser ajustada) */
+            padding-left: 10px;
+            font-size: 15px;
+        }
+        input:focus {
+            border-color: blueviolet; /* Mantém a mesma cor da borda quando focado */
+        }
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>  
+    <header style="padding-bottom: 140px; padding-top: 25px; width: 100%;">
+        <nav class="myContainer">
+            <div>
+                <a href="#"><img src="img/site/logo.png" alt="logo da faculdade"></a>
+            </div>
+            <div style="padding-left: 70px;">
+                <p><a href="#" style="text-decoration: none; color: blueviolet;">Graduação</a></p>
+            </div>
+            <div style="padding-left: 30px;">
+                <a href="#" style="text-decoration: none; color: blueviolet;">Blog</a>
+            </div>
+            <div style="padding-left: 400px;">
+                <input type= text style="padding: 2px;" class="lupa-input myContainer" placeholder="Buscar">
+            </div>
+            <div style="padding-left: 30px;">
+                <a href="#" style="text-decoration: none; color: rgb(118, 36, 196);">
+                    <img src="img/site/cadeado.svg" alt="lupa para pesquisar" style="padding-right: 7px;"><span style="font-weight: 550; color: #5A13B4;">Ambiente Virtual</span></a>
+            </div>
+        </nav>
+    </header> 
+    <section>
+        <div">         
+            <div style="display: flex; justify-content: center; align-items: flex-end; width: 100%; padding-bottom: 120px;">      
+                <div>
+                    <span class="text" style="font-size: 25px; font-weight: 300; color: #734ea3;">Nós somos uma <strong>faculdade digital</strong></span><br>
+                    <span class="text" style="font-size: 95px;">Você, preparado</span><br>
+                    <span class="text" style="font-size: 95px;">para <strong>o futuro</strong></span>
+                </div>
+                <div style="padding-left: 80px;">
+                    <img src="img/site/seta-amarela.png" alt="seta para baixo" width="35" height="200px">
+                </div>
+                <div class="text" style="line-height: 25px; padding-left: 80px; color: #734ea3;">
+                    Se preparar para o mercado é <br>uma coisa, prosperar nele é<br>outra. <strong>Nossa graduação te<br> ajuda com as duas.</strong>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #3B1270; margin-bottom: -50px;">           
+            <div>
+                <img style="margin-top: -60px; width: 520; height: 525; padding-left: 150px; margin-bottom: 60px;" src="img/site/personagem.jpg" alt="Aluno sentado com um notebock sorrindo">
+            </div>  
+            <div style="background-color: #8f39ff; width: 1080px; height: 80px;  font-family: Montserrat, sans-serif; display: flex; align-items: center; justify-content: center; margin: 0 auto; position: absolute; transform: translateY(-50%) translateX(13.8%);"> 
+                <a href="#" style="color: white; text-decoration: none; font-weight: 600; font-size: 25px;">INSCREVER-SE</a>
+            </div>
+        </div>
+        <div style="padding: 80px; margin-top: 80px;">
+        </div>
+    </section>
+</body>
+</html>

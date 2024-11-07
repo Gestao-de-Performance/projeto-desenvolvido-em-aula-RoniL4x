@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.minimap.enabled": false,
+    "workbench.editor.decorations.colors": true,
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.fontSize": 12,
+    "editor.fontWeight": "200",
+
+    "editor.tokenColorCustomizations": {
+        "keywords": "#ffffff9a",
+        "strings": "#f19c9ca8",
+        "variables": "#ffffff91",
+        "numbers": "#f0ab90be",
+        "functions": "#f0ab90be",
+        "comments": "#acacacc0"
+    },
+
+    "workbench.colorCustomizations": {
+    "editor.background": "#212224", // Cor de fundo do editor
+    "sideBar.background": "#2e2f31", // Cor de fundo da barra lateral
+    "sideBar.foreground": "#eeeeeed5", // Cor do texto na barra lateral
+    "activityBar.background": "#2e2f31", // Cor de fundo da barra de atividades
+    "activityBar.foreground": "#f0ab90be", // Cor do texto na barra de atividades
+   
+    "titleBar.activeBackground": "#2e2f31", // Cor de fundo da barra de título ativa
+    "titleBar.activeForeground": "#f0ab90be", // Cor do texto da barra de título ativa
+    
+    "statusBar.background": "#2e2f31", // Cor de fundo da barra de status
+    "statusBar.foreground": "#eeeeeed5", // Cor do texto da barra de status
+    
+    "tab.activeBackground": "#5c4137be", // Cor de fundo da aba ativa
+    "tab.activeForeground": "#eeeeee9f", // Cor do texto da aba ativa
+    "tab.inactiveBackground": "#2e2f31", // Cor de fundo da aba inativa
+    "tab.inactiveForeground": "#eeeeee9f", // Cor do texto da aba inativa
+    
+    "editorGroupHeader.border": "#2e2f31", // Cor da borda da barra das abas
+    "sideBar.border": "#2e2f31", // Cor da borda da barra lateral
+    "panel.border": "#212224", // Cor da borda do painel (aba inferior)
+    "tab.border": "#212224", // Cor da borda das abas
+    "statusBar.border": "#212224", // Cor da borda da barra de status
+    "activityBar.border": "#212224", // Cor da borda da barra de atividades
+    }
+}
